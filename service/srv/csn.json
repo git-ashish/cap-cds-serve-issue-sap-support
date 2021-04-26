@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "world": {
+      "@source": "world.cds",
+      "kind": "service"
+    },
+    "world.hello": {
+      "kind": "function",
+      "params": {
+        "to": {
+          "type": "cds.String"
+        }
+      },
+      "returns": {
+        "type": "cds.String"
+      }
+    }
+  },
+  "meta": {
+    "creator": "CDS Compiler v2.1.6",
+    "flavor": "inferred"
+  },
+  "$version": "2.0"
+}

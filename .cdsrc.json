@@ -1,0 +1,30 @@
+{
+    "build": {
+        "target": ".",
+        "tasks": [
+            {
+                "src": "srv",
+                "for": "node-cf",
+                "dest": "service",
+                "options": {
+                    "model": [
+                        "db",
+                        "srv"
+                    ]
+                }
+            }
+        ]
+    },
+    "requires": {
+        "db": {
+            "kind": "hana"
+        }
+    },
+    "odata": {
+        "version": "v4"
+    },
+    "files": [
+        "db",
+        "srv"
+    ]
+}

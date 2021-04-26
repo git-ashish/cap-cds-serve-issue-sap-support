@@ -1,0 +1,13 @@
+{
+  "name": "@capire/hello-world",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "cds watch",
+    "start": "cds serve",
+    "build": "cds build/all --clean"
+  },
+  "dependencies": {
+    "@sap/cds": "^5.0.6",
+    "@sap/hana-client": "^2.8.16"
+  }
+}
